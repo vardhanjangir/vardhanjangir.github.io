@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+}
+
+h1,
+h2,
+h3,
+h4,
+p{
+  padding: .25rem;
+}
+
+li {
+  padding: .1rem .25rem;
+}
+
+h2,
+h3,
+h4 {
+  margin: .25rem 0;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(230,245,255,1) 0%, rgba(179,224,255,1) 100%);;
+}
+
+.site-name {
+  font-family: Alata;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: .5rem 0;
+  background-color: black;
+  color: white;
+}
+
+.nav-menu {
+  display: flex;
+  padding: 1rem 0;
+}
+
+.nav-menu li {
+  display: inline;
+  padding: 0 10%;
+  margin: auto;
+}
+
+.nav-menu a {
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.img {
+  width: 96%;
+  margin: 0% 2%;
+  border-radius: 1rem;
+}
+
+.button {
+  text-align: center;
+  padding: 1rem;
+}
+
+.main-cta {
+  background-color: rgba(255, 255, 0, 0.966); /* #4088FF */
+  border-radius: .75rem;
+  border: none;
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem 3rem;
+}
+
+.main-cta-img {
+  width: 1.6rem;
+  vertical-align: middle;
+  padding: 0 1rem 0 .25rem;
+}
+
+.main-cta a {
+  text-decoration: none;
+  color: black;
+}
+
+hr {
+  border-radius: 0;
+  border: none;
+  padding: 1rem;
+}
+
+.img-block {
+  display: flex;
+}
+
+.img-block-1,
+.img-block-2 {
+  width: 46%;
+  padding: 2%;
+  margin: auto;
+}
+
+.img-block-3 {
+  width: 96%;
+  padding: 2%;
+}
+
+.img-block-1,
+.img-block-2,
+.img-block-3 {
+  border-radius: 1rem;
+}
+
+.free-install {
+  display: block;
+  text-align: center;
+  font-weight: bolder;
+  padding: .5rem 0;
+  margin: .5rem auto;
+  width: 60%;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+  letter-spacing: .06rem;
+}
+
+footer {
+  font-size: larger;
+}
+
+.contact,
+.copyright {
+  display: block;
+  text-align: center;
+}
+
+.contact {
+  font-weight: bold;
+  padding: 1.5rem 0 1rem 0;
+}
+
+.copyright {
+  padding: .5rem;
+}
